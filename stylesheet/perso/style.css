@@ -98,4 +98,23 @@ footer {
     padding: 45px 15px 0 15px;
     text-align: center; }
 
+/*----- Media Queries Part -----*/
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+  .Li01_Header.Right {
+    display: none; } }
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .midLogotypeXs {
+    display: none; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .midLogotypeXs {
+    display: none; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .midLogotypeXs {
+    display: none; } }
+
 /*# sourceMappingURL=style.css.map */
