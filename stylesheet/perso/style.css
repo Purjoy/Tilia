@@ -48,28 +48,24 @@ section .NewsContent .CenterNews {
     section .NewsContent .CenterNews .TitlePart h2 {
       font-size: 1.8em;
       font-weight: 600; }
-  section .NewsContent .CenterNews ul {
-    height: 150px; }
-    section .NewsContent .CenterNews ul li {
-      height: 100%; }
-    section .NewsContent .CenterNews ul .TimeNewsContent {
-      text-align: right; }
-    section .NewsContent .CenterNews ul .PictureNewsContent {
-      padding-left: 10px;
-      padding-right: 10px;
-      /*---- Provisoire ----*/
-      /*---- ----*/ }
-      section .NewsContent .CenterNews ul .PictureNewsContent div {
-        border: 1px yellow dashed;
-        width: 80%;
-        height: 80%;
-        margin: auto; }
-    section .NewsContent .CenterNews ul .ParaNewsContent {
-      text-align: justify;
-      height: 130px;
-      line-height: 130px; }
-      section .NewsContent .CenterNews ul .ParaNewsContent p {
-        line-height: normal; }
+  section .NewsContent .CenterNews ul li {
+    height: 100%; }
+  section .NewsContent .CenterNews ul .TimeNewsContent {
+    text-align: right; }
+  section .NewsContent .CenterNews ul .PictureNewsContent {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*---- Provisoire ----*/
+    /*---- ----*/ }
+    section .NewsContent .CenterNews ul .PictureNewsContent div {
+      border: 1px yellow dashed;
+      width: 150px;
+      height: 150px;
+      margin: auto; }
+  section .NewsContent .CenterNews ul .ParaNewsContent {
+    text-align: justify; }
+    section .NewsContent .CenterNews ul .ParaNewsContent p {
+      line-height: normal; }
   section .NewsContent .CenterNews .NewsSepar {
     height: 2px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -77,8 +73,7 @@ section .NewsContent .CenterNews {
 
 /* -------- Footer Part --------- */
 footer {
-  background-color: #2C3E50;
-  height: 150px; }
+  background-color: #2C3E50; }
   footer .FooterCenter div {
     margin-left: 5px;
     margin-right: 5px; }
@@ -102,19 +97,32 @@ footer {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 768px) {
   .Li01_Header.Right {
+    display: none; }
+
+  .PictureNewsContent {
+    margin-bottom: 25px; }
+
+  .FooterContent.Left {
     display: none; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  .midLogotypeXs {
+  .midLogotypeXs, .midParaXs, .midSocialIconXs {
     display: none; } }
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .TitlePart {
+    padding-left: 15px; }
+
+  .ParaNewsContent {
+    margin-left: -15px; } }
+/* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  .midLogotypeXs {
+  .midLogotypeXs, .midParaXs, .midSocialIconXs {
     display: none; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  .midLogotypeXs {
+  .midLogotypeXs, .midParaXs, .midSocialIconXs {
     display: none; } }
 
 /*# sourceMappingURL=style.css.map */
