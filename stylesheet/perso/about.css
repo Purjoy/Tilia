@@ -36,6 +36,25 @@ header {
       display: inline; }
 
 /* -------- .sectionAbout Part --------- */
+.sectionAbout {
+  min-height: 900px;
+  padding-bottom: 25px; }
+  .sectionAbout .titleBiography, .sectionAbout .titleExpertise {
+    margin: 50px 0; }
+
+.centerLine div {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 40px; }
+
+.centerTitle {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 2em; }
+
 /* -------- Footer Part --------- */
 footer {
   background-color: #2C3E50; }
@@ -48,7 +67,6 @@ footer {
     height: 120px;
     color: #ECF0F1; }
   footer .FooterCenter .FooterContent.Left ul {
-    height: 100%;
     line-height: 120px; }
     footer .FooterCenter .FooterContent.Left ul li {
       line-height: normal; }
@@ -65,13 +83,19 @@ footer {
     display: none; }
 
   .FooterContent.Left {
-    display: none; } }
+    display: none; }
+
+  .pictureExpert, .pictureBiography {
+    text-align: center; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .midLogotypeXs .midSocialIconXs {
     display: none; } }
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .centerTitle {
+    font-size: 1.5em; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .midLogotypeXs, .midSocialIconXs {
