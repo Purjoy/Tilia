@@ -42,12 +42,17 @@
 <!-- Begin Section -->
 
 <div class="sectionBlog no-padding row">
-    <div class="searchSmall col-xs-12" style="display: none"></div>
-    <ul class="globalBlogList col-xs-12 no-padding">
-        <li class="leftBlogContent col-sm-2 col-xs-3 no-padding">
-            <div class="firstLeftBlContent col-sm-12">
+    <div class="searchSmall col-xs-12">
+        <div class="form-group input-group">
+            <input type="text" class="form-control">
+            <span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-search"></i></button></span>
+        </div>
+    </div>
+    <ul class="globalBlogList col-xs-12">
+        <li class="leftBlogContent col-sm-2 no-padding">
+            <div class="firstLeftBlContent col-sm-12 no-padding">
                 <h3>Recent Post</h3>
-                <ul class="listRecPos col-xs-12">
+                <ul class="listRecPos col-xs-12 no-padding">
                     <li>Donec utricies</li>
                     <li>Arcu a interium ultricies</li>
                     <li>Quisque auctor vel neque</li>
@@ -55,15 +60,93 @@
                 </ul>
             </div>
 
-            <div class="thirdLeftBlContent col-sm-12">
+            <div class="secondLeftBlContent col-sm-12 no-padding">
                 <h3>Search Content</h3>
                 <div class="form-group input-group">
                     <input type="text" class="form-control">
                     <span class="input-group-btn"><button class="btn btn-default" type="button"><i class="fa fa-search"></i></button></span>
                 </div>
+                <div class="calendarContent"></div>
+            </div>
+
+            <div class="thirdLeftB1Content col-sm-12 no-padding">
+                <h3>Categories</h3>
+                <ul class="listCaPos col-xs-12 no-padding">
+                    <li>Donec utricies</li>
+                    <li>Arcu a interium ultricies</li>
+                    <li>Quisque auctor vel neque</li>
+                    <li>Phasellua vehicula</li>
+                </ul>
             </div>
         </li>
-        <li class="rightBlogContent col-sm-10 col-xs-9"></li>
+
+        <li class="separ col-sm-1"></li>
+
+        <li class="rightBlogContent col-sm-9 col-xs-12">
+            <div class="articleContent com-xs-12 row">
+                <div class="pictureBlContent">
+                    <img src="" alt="Article Picture"/>
+                </div>
+                <h2>Nunc cursus augue eget malesuada mollis</h2>
+                <p>
+                    Aliquam ligula sapien, mattis a ipsum eu, pulvinar blandit nunc. Donec augue tortor, iaculis sed arcu in, tristique bibendum augue. In felis ex, gravida eu imperdiet id, pretium vel turpis. Pellentesque accumsan enim massa, a consectetur mi vestibulum eget. Aliquam quam purus, viverra vel enim eu, finibus efficitur odio. Nulla urna nulla, euismod nec metus quis, gravida malesuada lectus. Vestibulum a arcu odio. Duis ultricies mollis euismod. Pellentesque interdum ut justo ut posuere. Nam sit amet placerat elit. Phasellus bibendum, nisl et scelerisque venenatis, nisi libero convallis neque, ut pharetra felis lorem et sem. Suspendisse imperdiet nisi eu dapibus lacinia.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis dignissim massa. Phasellus convallis, arcu quis sodales euismod, eros justo blandit nibh, quis dapibus ex sapien non quam. Aenean laoreet odio at diam cursus, nec congue quam vehicula. Nunc in dignissim neque, vitae pulvinar velit. In ac tortor neque. Quisque vitae pulvinar elit, ut varius ex. Suspendisse potenti.
+                </p>
+                <div class="infoArticleContent col-xs-12 no-padding">
+                    <ul class="col-xs-12 no-padding">
+                        <li class="authorInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Author Info</p>
+                        </li>
+
+                        <li class="dateInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Date</p>
+                        </li>
+
+                        <li class="separInfo col-sm-3"></li>
+
+                        <li class="categoriesInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Categories</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="articleContent com-xs-12 row">
+                <div class="pictureBlContent">
+                    <img src="" alt="Article Picture"/>
+                </div>
+                <h2>Nunc cursus augue eget malesuada mollis</h2>
+                <p>
+                    Aliquam ligula sapien, mattis a ipsum eu, pulvinar blandit nunc. Donec augue tortor, iaculis sed arcu in, tristique bibendum augue. In felis ex, gravida eu imperdiet id, pretium vel turpis. Pellentesque accumsan enim massa, a consectetur mi vestibulum eget. Aliquam quam purus, viverra vel enim eu, finibus efficitur odio. Nulla urna nulla, euismod nec metus quis, gravida malesuada lectus. Vestibulum a arcu odio. Duis ultricies mollis euismod. Pellentesque interdum ut justo ut posuere. Nam sit amet placerat elit. Phasellus bibendum, nisl et scelerisque venenatis, nisi libero convallis neque, ut pharetra felis lorem et sem. Suspendisse imperdiet nisi eu dapibus lacinia.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis dignissim massa. Phasellus convallis, arcu quis sodales euismod, eros justo blandit nibh, quis dapibus ex sapien non quam. Aenean laoreet odio at diam cursus, nec congue quam vehicula. Nunc in dignissim neque, vitae pulvinar velit. In ac tortor neque. Quisque vitae pulvinar elit, ut varius ex. Suspendisse potenti.
+                </p>
+                <div class="infoArticleContent col-xs-12 no-padding">
+                    <ul class="col-xs-12 no-padding">
+                        <li class="authorInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Author Info</p>
+                        </li>
+
+                        <li class="dateInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Date</p>
+                        </li>
+
+                        <li class="separInfo col-sm-3"></li>
+
+                        <li class="categoriesInfo col-sm-3 col-xs-4">
+                            <p class="iconInfo col-xs-4"><img src="" alt="Icon"/></p>
+                            <p class="italicInfoArt col-xs-8">Categories</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
     </ul>
 </div>
 

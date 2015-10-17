@@ -36,6 +36,25 @@ header {
       display: inline; }
 
 /* -------- .sectionBlog Part --------- */
+.globalBlogList {
+  margin-top: 25px; }
+  .globalBlogList .leftBlogContent .firstLeftBlContent, .globalBlogList .leftBlogContent .secondLeftBlContent, .globalBlogList .leftBlogContent .thirdLeftBlContent {
+    margin-bottom: 50px; }
+  .globalBlogList .rightBlogContent .articleContent {
+    margin-bottom: 100px; }
+    .globalBlogList .rightBlogContent .articleContent .pictureBlContent, .globalBlogList .rightBlogContent .articleContent h2, .globalBlogList .rightBlogContent .articleContent > p, .globalBlogList .rightBlogContent .articleContent .infoArticleContent {
+      margin-bottom: 25px; }
+    .globalBlogList .rightBlogContent .articleContent .pictureBlContent {
+      height: 300px;
+      border: solid 1px antiquewhite; }
+    .globalBlogList .rightBlogContent .articleContent .infoArticleContent {
+      border: solid 1px rgba(0, 0, 0, 0.6); }
+      .globalBlogList .rightBlogContent .articleContent .infoArticleContent ul li {
+        padding-top: 5px;
+        padding-bottom: 5px; }
+        .globalBlogList .rightBlogContent .articleContent .infoArticleContent ul li .italicInfoArt {
+          font-style: italic; }
+
 /* -------- Footer Part --------- */
 footer {
   background-color: #2C3E50; }
@@ -64,20 +83,40 @@ footer {
     display: none; }
 
   .FooterContent.Left {
-    display: none; } }
+    display: none; }
+
+  .leftBlogContent {
+    display: none; }
+
+  .separInfo {
+    display: none; }
+
+  .searchSmall {
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .midLogotypeXs .midSocialIconXs {
+    display: none; }
+
+  .searchSmall {
     display: none; } }
 /* Medium Devices, Desktops */
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .midLogotypeXs, .midSocialIconXs {
+    display: none; }
+
+  .searchSmall {
     display: none; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .midLogotypeXs, .midSocialIconXs {
+    display: none; }
+
+  .searchSmall {
     display: none; } }
 
 /*# sourceMappingURL=blog.css.map */
