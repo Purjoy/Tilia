@@ -1,0 +1,119 @@
+/* -------- Generic Part --------- */
+.no-padding > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+/* -------- Header Part --------- */
+header {
+  height: 300px;
+  border: red 1px solid; }
+  header > ul {
+    height: 100%;
+    border: blue 1px solid; }
+    header > ul li {
+      height: 100%;
+      border: green 1px solid; }
+    header > ul .Li01_Header.Left nav {
+      width: 100%;
+      height: 100%; }
+      header > ul .Li01_Header.Left nav ul .Li02_Header {
+        height: 75px; }
+    header > ul .Li01_Header.Right div {
+      text-align: center;
+      height: 150px;
+      line-height: 150px;
+      margin-top: 75px;
+      border: blue 1px solid; }
+    header > ul .Li01_Header.Right .Div01_Header.Left h2 {
+      display: inline; }
+
+/* -------- .sectionSuccesStories Part --------- */
+.sectionContact ul {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .sectionContact ul .leftContentCont {
+    padding-bottom: 50px; }
+    .sectionContact ul .leftContentCont div {
+      padding-bottom: 25px; }
+      .sectionContact ul .leftContentCont div .iconLeftContent {
+        text-align: center; }
+      .sectionContact ul .leftContentCont div .infoLeftContent {
+        text-align: left; }
+    .sectionContact ul .leftContentCont .paraLeftCont p {
+      padding-bottom: 25px; }
+  .sectionContact ul .rightContentCont {
+    padding-top: 8%; }
+    .sectionContact ul .rightContentCont .BckgContact {
+      height: 250px;
+      border: red 1px solid; }
+    .sectionContact ul .rightContentCont .submitContentCont {
+      text-align: right; }
+
+/* -------- Footer Part --------- */
+footer {
+  background-color: #2C3E50; }
+  footer .FooterCenter div {
+    margin-left: 5px;
+    margin-right: 5px; }
+  footer .FooterCenter .FooterContent {
+    margin-top: 15px;
+    padding-top: 30px;
+    height: 120px;
+    color: #ECF0F1; }
+  footer .FooterCenter .FooterContent.Left ul {
+    line-height: 120px; }
+    footer .FooterCenter .FooterContent.Left ul li {
+      line-height: normal; }
+  footer .FooterCenter .FooterContent.Middle {
+    text-align: center; }
+  footer .FooterCenter .FooterContent.Right {
+    padding: 45px 15px 0 15px;
+    text-align: center; }
+
+/*----- Media Queries Part -----*/
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+  .Li01_Header.Right {
+    display: none; }
+
+  .FooterContent.Left {
+    display: none; }
+
+  .paraLeftCont {
+    display: none; }
+
+  .separBckg {
+    display: none; }
+
+  .BckgContact {
+    display: none; } }
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .midLogotypeXs .midSocialIconXs {
+    display: none; }
+
+  .sectionContact ul .leftContentCont div .iconLeftContent {
+    text-align: left; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .BckgContact {
+    display: none; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .midLogotypeXs, .midSocialIconXs {
+    display: none; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .midLogotypeXs, .midSocialIconXs {
+    display: none; } }
+
+/*# sourceMappingURL=contact.css.map */
